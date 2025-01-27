@@ -1,0 +1,26 @@
+.nav-popup-content {
+  width: 100vw;
+  height: 100vh;
+}
+
+@media (min-width: 768px) {
+  .nav-popup-content {
+    display: none;
+  }
+}
+
+.logout-popup-content {
+  width: 300px;
+  height: 150px;
+}
+
+@media (min-width: 768px) {
+  .logout-popup-content {
+    width: 400px;
+    height: 200px;
+  }
+}
+
+.logout-popup-overlay {
+  background: rgba(0, 0, 0, 0.5);
+}
